@@ -49,3 +49,25 @@ _p35_ContinentesMundo
 _p36_CompraPizza
 _p37_CalculoNotas
 _p38_AceptarEstudianteV2
+## Clase 9
+_p39_Numeros1a100
+_p40_Numeros100a1
+_p41_ProcesaCalificaciones
+_p42_TablaMultiplicar
+_p43_ConteoNumeros
+## Clase 10
+_p44_ParesAscendente
+_p45_ImparesDescendente
+_p46_TablaConversion
+_p47_ConjeturaCollatz
+## Clase 11
+_p48_ImparesAscendente
+_p49_ParesDescendente
+_p50_ConversionTemperaturas
+_p51_SerieFibonaci
+## Clase 12
+_p52_Numeros1aN
+_p53_NumerosNa1
+_p54_ArribaAbajo
+_p55_SumaParesImpares
+_p56_SumaPromedio
