@@ -71,3 +71,25 @@ _p53_NumerosNa1
 _p54_ArribaAbajo
 _p55_SumaParesImpares
 _p56_SumaPromedio
+## Clase 13
+_p57_TablasMultiplicar
+_p58_Piramide
+_p59_FactorialNumeros
+_p60_SumaTerminos
+## Clase 14
+_p61_SecuenciaNumeros1
+_p62_SecuenciaNumeros2
+_p63_SumaTerminos1
+_p64_SumaTerminos2
+## Clase 15
+_p65_PromedioNumeros
+_p66_ConversionTemperaturas
+_p67_SumaRango
+_p68_TablaMultiplicar
+_p69_CalificacionLetra
+## Clase 16
+_p70_MayorTresNumeros
+_p71_SumaDigitos
+_p72_SumaParesImpares
+_p73_Factorial
+_p74_CuadroCaracter
