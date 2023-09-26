@@ -101,3 +101,9 @@ _p78_SumaMultiplos
 _p79_Angulo
 ## Examen 1
 _p80_PrimerExamenParcial
+## Clase 18
+_p81_InicializaArregloNumeros
+_p82_InicializaArregloCadenas
+_p83_InicializaNombresEdades
+_p84_LeerArregloCalificaciones
+_p85_NombresEdades
