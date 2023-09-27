@@ -107,3 +107,8 @@ _p82_InicializaArregloCadenas
 _p83_InicializaNombresEdades
 _p84_LeerArregloCalificaciones
 _p85_NombresEdades
+## Clase 19
+_p86_ArregloMostrar
+_p87_ArregloTemperaturas
+_p88_Aleatorios
+_p89_ArregloAleatorios
