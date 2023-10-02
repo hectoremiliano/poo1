@@ -112,3 +112,8 @@ _p86_ArregloMostrar
 _p87_ArregloTemperaturas
 _p88_Aleatorios
 _p89_ArregloAleatorios
+## Clase 20
+_p90_Temperaturas
+_p91_MayoresPromedio
+_p92_MayorMenor
+_p93_ParesImpares
