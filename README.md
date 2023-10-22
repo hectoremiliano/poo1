@@ -117,3 +117,29 @@ _p90_Temperaturas
 _p91_MayoresPromedio
 _p92_MayorMenor
 _p93_ParesImpares
+## Clase 21
+_p94_Empleado01
+_p95_Empleado02
+_p96_Empleado03
+_p97_Empleado04
+## Clase 22
+_p98_Circulo
+_p99_Rectangulo
+_p100_Articulo
+## Clase 23
+_p101_TrabajoPersona
+_p102_AutorLibro
+_p103_ClienteFactura
+_p104_PuntoCirculo
+_p105_PuntoTriangulo
+## Clase 24
+_p106_Persona
+_p107_Forma
+_p108_Vehiculo
+_p109_FormaV2
+## Clase 25
+_p110_CuentaBancariaV1
+## Clase 23
+_p111_CuentaBancariaV2
+## Clase 24
+_p112_ControlVentas
