@@ -143,3 +143,5 @@ _p110_CuentaBancariaV1
 _p111_CuentaBancariaV2
 ## Clase 24
 _p112_ControlVentas
+## Examen 2
+_p113_SegundoExamenParcial
