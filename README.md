@@ -145,3 +145,5 @@ _p111_CuentaBancariaV2
 _p112_ControlVentas
 ## Examen 2
 _p113_SegundoExamenParcial
+## Examen 3
+_p147_TercerExamenParcial
