@@ -1,0 +1,107 @@
+/* Styles.css */
+
+body {
+    background-color: #f0f8ff; /* Azul Celeste Claro */
+    color: #333; /* Texto Negro */
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #6495ed; /* Azul Acero */
+    color: #fff; /* Texto Blanco */
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #87ceeb; /* Azul Cielo */
+    padding: 10px;
+}
+
+nav a {
+    color: #333; /* Texto Negro */
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff; /* Ícono de hamburguesa en blanco */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.informacion-principal {
+    background-color: #fff; /* Fondo Blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+}
+
+.barra-lateral {
+    background-color: #f0f8ff; /* Azul Celeste Claro */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+}
+
+.aviso {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #87ceeb; /* Azul Cielo */
+    border-radius: 8px;
+}
+
+.institucional {
+    background-color: #6495ed; /* Azul Acero */
+    color: #fff; /* Texto Blanco */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para el formulario de registro */
+form {
+    background-color: #fff; /* Fondo Blanco */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sutil sombra */
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 10px 15px;
+    background-color: #6495ed; /* Azul Acero */
+    color: #fff; /* Texto Blanco */
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #4169e1; /* Azul Real */
+}
+
+/* Colores para los botones */
+.btn-primary {
+    background-color: #6495ed; /* Azul Acero */
+    border-color: #6495ed; /* Borde Azul Acero */
+}
+
+.btn-secondary {
+    background-color: #87ceeb; /* Azul Cielo */
+    border-color: #87ceeb; /* Borde Azul Cielo */
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Test</title>
+    <script>
+        function toggleOtro() {
+            var generoInput = document.getElementById('genero');
+            var otroGeneroInput = document.getElementById('otroGeneroInput');
+            var otroGeneroDiv = document.getElementById('otroGenero');
+
+            if (generoInput.value === 'Otro') {
+                otroGeneroDiv.style.display = 'block';
+                otroGeneroInput.required = true;
+            } else {
+                otroGeneroDiv.style.display = 'none';
+                otroGeneroInput.required = false;
+            }
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos"><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password"><br>
+
+        <label for="fechaNacimiento">Fecha de nacimiento:</label>
+        <input type="text" id="fechaNacimiento" name="fechaNacimiento" placeholder="dd/mm/aaaa"><br>
+
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero" onchange="toggleOtro()">
+            <option value="Mujer">Mujer</option>
+            <option value="Hombre">Hombre</option>
+            <option value="Otro">Otro</option>
+        </select><br>
+
+        <div id="otroGenero" style="display:none;">
+            <label for="otroGeneroInput">Especificar:</label>
+            <input type="text" id="otroGeneroInput" name="otroGeneroInput" required><br>
+        </div>
+
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

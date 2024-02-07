@@ -1,0 +1,200 @@
+<!-- registro.html -->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Registro</title>
+</head>
+<body>
+
+<!-- Cabecera -->
+<header>
+    <div class="container">
+        <h1>Responsiveformulario</h1>
+        <!-- Aquí se muestra el logo -->
+        <img src="Logo.png" alt="Logo de la Organización">
+    </div>
+</header>
+
+<!-- Barra de Navegación -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Registro</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="acerca.html">Acerca de...</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Opción 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Opción 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Opción 3</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Contenido Principal y Barra Lateral -->
+<div class="container">
+    <div class="row">
+        <div class="col-lg-9">
+            <section class="informacion-principal">
+                <h2>Registro</h2>
+                <!-- Formulario de Registro -->
+                <form action="recibeDatos.php" method="POST">
+                    <!-- DATOS DE IDENTIFICACIÓN -->
+                    <div>
+                        <label for="rfc">RFC:</label>
+                        <input type="text" id="rfc" name="rfc" pattern="[A-Za-z]{4}\d{2}\d{2}\d{2}[A-Za-z\d]{3}" required>
+                    </div>
+                    <div>
+                        <label for="primerApellido">Primer Apellido:</label>
+                        <input type="text" id="primerApellido" name="primerApellido" required>
+                    </div>
+                    <div>
+                        <label for="segundoApellido">Segundo Apellido:</label>
+                        <input type="text" id="segundoApellido" name="segundoApellido">
+                    </div>
+                    <div>
+                        <label for="nombres">Nombres:</label>
+                        <input type="text" id="nombres" name="nombres" required>
+                    </div>
+                    <div>
+                        <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+                        <input type="date" id="fechaNacimiento" name="fechaNacimiento" required>
+                    </div>
+                    <div>
+                        <label for="entidadNacimiento">Entidad de Nacimiento:</label>
+                        <select id="entidadNacimiento" name="entidadNacimiento" required>
+                            <!-- Agrega las opciones con la nomenclatura CURP -->
+                            <option value="ZS">ZACATECAS</option>
+                            <!-- ... otras opciones ... -->
+                        </select>
+                    </div>
+                    <div>
+                        <label>Género:</label>
+                        <div>
+                            <input type="radio" id="generoM" name="genero" value="M" required>
+                            <label for="generoM">Masculino</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="generoF" name="genero" value="F" required>
+                            <label for="generoF">Femenino</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="generoOtro" name="genero" value="O">
+                            <label for="generoOtro">Otro</label>
+                            <input type="text" id="generoOtroEspecificado" name="generoOtroEspecificado" placeholder="Especificar">
+                        </div>
+                    </div>
+
+                    <!-- DATOS DE UBICACION -->
+                    <div>
+                        <label for="domicilioResidencia">Domicilio de Residencia:</label>
+                        <input type="text" id="domicilioResidencia" name="domicilioResidencia" required>
+                    </div>
+                    <div>
+                        <label for="ciudadResidencia">Ciudad de Residencia:</label>
+                        <input type="text" id="ciudadResidencia" name="ciudadResidencia" required>
+                    </div>
+                    <div>
+                        <label for="estadoResidencia">Estado de Residencia:</label>
+                        <select id="estadoResidencia" name="estadoResidencia" required>
+                            <!-- Utiliza la misma lista de entidad de nacimiento -->
+                            <option value="ZS">ZACATECAS</option>
+                            <!-- ... otras opciones ... -->
+                        </select>
+                    </div>
+                    <div>
+                        <label for="codigoPostal">Código Postal:</label>
+                        <input type="text" id="codigoPostal" name="codigoPostal" pattern="[0-9]{5}" required>
+                    </div>
+
+                    <!-- DATOS DE EVALUACION -->
+                    <div>
+                        <label for="evaluacion1">Evaluación 1:</label>
+                        <input type="number" id="evaluacion1" name="evaluacion1" step="0.01" min="0" max="10" required>
+                    </div>
+                    <div>
+                        <label for="evaluacion2">Evaluación 2:</label>
+                        <input type="number" id="evaluacion2" name="evaluacion2" step="0.01" min="0" max="10" required>
+                    </div>
+                    <div>
+                        <label for="evaluacion3">Evaluación 3:</label>
+                        <input type="number" id="evaluacion3" name="evaluacion3" step="0.01" min="0" max="10" required>
+                    </div>
+                    <div>
+                        <label for="promedio">Promedio:</label>
+                        <input type="text" id="promedio" name="promedio" readonly>
+                    </div>
+
+                    <!-- DATOS DE VERIFICACIÓN -->
+                    <div>
+                        <input type="checkbox" id="cuotaPagada" name="cuotaPagada">
+                        <label for="cuotaPagada">Cuota Pagada</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="activo" name="activo">
+                        <label for="activo">Activo</label>
+                    </div>
+
+                    <!-- Botones -->
+                    <div>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpiar</button>
+                    </div>
+                </form>
+            </section>
+        </div>
+        <div class="col-lg-3 barra-lateral">
+            <!-- Avisos -->
+            <div class="aviso">
+                <h4>Mañana cerramos por dias festivos</h4>
+                <p>Fecha: 13/12/2023</p>
+                <p>Feliz Navidad</p>
+            </div>
+            <div class="aviso">
+                <h4>Reabrimos el 30 de enero</h4>
+                <p>Fecha: 30/01/2024</p>
+                <p>Feliz año nuevo</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pie de Página -->
+<footer class="institucional">
+    <div class="container">
+        <!-- Información institucional -->
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- Script para calcular el promedio -->
+<script>
+    // Asegúrate de agregar el script para calcular el promedio aquí
+</script>
+
+</body>
+</html>
